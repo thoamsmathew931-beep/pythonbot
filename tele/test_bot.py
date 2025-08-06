@@ -433,7 +433,7 @@ class LankaLegendsBot:
 
 
 async def main():
-    app = Application.builder().token('8324603844:AAHWvjoZ1RguvAueJPyTX2TA4swPtQbCgQA').build()
+    app = Application.builder().token('').build()
     bot = LankaLegendsBot()
 
     app.add_handler(CommandHandler('start', bot.start))
