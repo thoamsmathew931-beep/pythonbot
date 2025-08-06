@@ -224,7 +224,7 @@ def main():
     init_db()
 
     # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-    application = Application.builder().token("8312587022:AAGjgGfhMqozUBIHb5GJMg49OMm5LP_DgZ0").build()
+    application = Application.builder().token().build()
 
     # Add handlers
     application.add_handler(CommandHandler("setthreshold", set_threshold_command))
